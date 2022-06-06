@@ -16,12 +16,12 @@ function App() {
     <div>
       <Header/>
        <Nav/>
-      <h1>Plantilla Uno</h1>
+      
       <About/>
-      <Contact/>
       <Experience/>
       <Services/>
       <Testimonials/>
+      <Contact/>
       <Footer/>
     </div>
   )
