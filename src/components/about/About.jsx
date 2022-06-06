@@ -1,7 +1,9 @@
 import React from 'react'
 import about from './about.css'
 import ME from '../../assets/me-about.jpg'
-import {GrWorkshop} from 'react-icons/gr'
+import { AiOutlineCluster, 
+        AiOutlineUser, 
+        AiOutlineFolderOpen } from 'react-icons/ai'
 
 const About = () => {
     return (
@@ -18,22 +20,25 @@ const About = () => {
                 <div className="about__content">
                     <div className="about__cards">
                         <article className='about_card'>
-                            <GrWorkshop className='about__icon'/>
+                            <AiOutlineCluster className='about__icon' />
                             <h5>Experience</h5>
                             <small>+3 Years Working</small>
                         </article>
                         <article className='about_card'>
-                            <GrWorkshop className='about__icon'/>
-                            <h5>Experience</h5>
-                            <small>+3 Years Working</small>
+                            <AiOutlineUser className='about__icon' />
+                            <h5>Clients</h5>
+                            <small>50+ Worldwide</small>
                         </article>
                         <article className='about_card'>
-                            <GrWorkshop className='about__icon'/>
-                            <h5>Experience</h5>
-                            <small>+3 Years Working</small>
+                            <AiOutlineFolderOpen className='about__icon' />
+                            <h5>Projects</h5>
+                            <small>+35 Completed</small>
                         </article>
                     </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum provident voluptatibus reiciendis sequi laboriosam incidunt! Repudiandae a aspernatur suscipit ullam ratione iusto nesciunt. Atque, delectus alias voluptatum minus rem quisquam!</p>
+                    <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>
+                
             </div>
         </section>
     )
