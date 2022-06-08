@@ -30,3 +30,15 @@ nav a.active{
     background: var(--color-bg);
     color: var(--color-white);
 }
+/*=============MEDIA QUERIES (small DEVICES)===================*/
+/* @media screen and (max-width: 1024px){
+    .navbar{
+        background: red;
+    }
+} */
+/*=============MEDIA QUERIES (small DEVICES)===================*/
+@media screen and (max-width: 600px){
+    .navbar{
+        left: 11rem;
+    }
+}
