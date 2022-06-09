@@ -1,5 +1,6 @@
 .container.testimonials__container{
     width: 40%;
+    padding-bottom: 3.5rem;
 }
 .client_avatar{
     width: 4rem;
@@ -7,7 +8,7 @@
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto 1rem;
-    border: 0.4rem solid var(--color-promary-variant);
+    border: 0.4rem solid var(--color-primari-variant);
 }
 .testimonial {
     background: var(--color-bg-variant);
@@ -26,7 +27,7 @@
 /*=============MEDIA QUERIES (small DEVICES)===================*/
 @media screen and (max-width: 1024px){
     .container.testimonials__container{
-        width: 60%;
+        width: 50%;
     }
 }
 /*=============MEDIA QUERIES (small DEVICES)===================*/
