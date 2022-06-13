@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, Suspense } from 'react'
 import './App.css'
 import About from './components/about/About'
 import Contact from './components/contact/Contact'
@@ -15,16 +15,17 @@ function App() {
 
   return (
     <div>
-      <Header/>
-       <Nav/>
-      
-      <About/>
-      <Experience/>
-      <Services/>
-      <Portfolio/>
-      <Testimonials/>
-      <Contact/>
-      <Footer/>
+      <Suspense>
+        <Header/>
+        <Nav/>
+        <About/>
+        <Experience/>
+        <Services/>
+        <Portfolio/>
+        <Testimonials/>
+        <Contact/>
+        <Footer/>
+      </Suspense>
     </div>
   )
 }

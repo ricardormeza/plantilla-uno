@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Suspense} from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
@@ -6,6 +6,8 @@ import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css'
 
 const data = [
     {
@@ -61,16 +63,31 @@ const Portfolio = () => {
                 {
                     data.map(({id, image, title, github, demo}) => {
                         return (
-                            <article key={id} className='portfolio__item'>
-                                <div className="portfolio__item-image">
-                                    <img src={image } alt={title} />
-                                </div>
-                                <h3>{title}</h3>
-                                    <div className="portfolio__item-cta">
-                                        <a href={github} className='btn'>GitHub</a>
-                                        <a href={demo} className='btn btn-primary' target="_blank">Live Demo</a>
+                            <Suspense>
+                                <article key={id} className='portfolio__item'>
+                                    <div className="portfolio__item-image">
+                                        <LazyLoadImage
+                                            src={image}
+                                            alt={title}
+                                            height='100%'
+                                            width='100%'
+                                            effect='blur'
+                                            loading='lazy'
+                                        />
+                                        {/* <img src={image } 
+                                        alt={title}
+                                        loading='lazy'
+                                        width='100%'
+                                        height='100%'
+                                        /> */}
                                     </div>
-                            </article>
+                                    <h3>{title}</h3>
+                                        <div className="portfolio__item-cta">
+                                            <a href={github} className='btn'>GitHub</a>
+                                            <a href={demo} className='btn btn-primary' target="_blank">Live Demo</a>
+                                        </div>
+                                </article>
+                            </Suspense>
                         )
                     })
                 }
