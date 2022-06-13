@@ -23,4 +23,4 @@ This project uses a number of open source projects to work properly:
 
 -  React Vite Framework
 
-
+- Puede modificar, esta plantilla
