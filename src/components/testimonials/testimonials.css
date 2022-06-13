@@ -16,6 +16,7 @@
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
+    width: 90%!important;
 }
 .client__review{
     color: var(--color-light);
@@ -23,6 +24,9 @@
     display:block;
     width: 80%;
     margin: 0.8rem auto 0;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: var(--color-primary);
 }
 /*=============MEDIA QUERIES (small DEVICES)===================*/
 @media screen and (max-width: 1024px){

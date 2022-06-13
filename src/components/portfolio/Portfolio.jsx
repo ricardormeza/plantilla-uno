@@ -74,12 +74,6 @@ const Portfolio = () => {
                                             effect='blur'
                                             loading='lazy'
                                         />
-                                        {/* <img src={image } 
-                                        alt={title}
-                                        loading='lazy'
-                                        width='100%'
-                                        height='100%'
-                                        /> */}
                                     </div>
                                     <h3>{title}</h3>
                                         <div className="portfolio__item-cta">
