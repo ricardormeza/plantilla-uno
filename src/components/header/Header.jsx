@@ -1,7 +1,7 @@
 import React, {Suspense} from 'react'
 import header from './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me.webp'
+import ME from '../../assets/rrm_profile.png'
 import HeaderSocial from './HeaderSocial'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css'
@@ -15,7 +15,7 @@ const Header = () => {
             <div className="container header__container">
                 <h5>hello I'm</h5>
                 <h2>Ricky Ram</h2>
-                <h5 className="text-ligth">Fullstack Developer</h5>
+                <h5 className="text-ligth">Frontend Developer</h5>
                 <CTA/>
                 <HeaderSocial/>
                 <Suspense>

@@ -15,35 +15,49 @@ const Experience = () => {
                             <BsCheckSquareFill className='experience__details-icons'/>
                             <div>
                             <h4>HTML</h4>
-                            <small className='text-ligth'>Experienced</small>
+                            <small className='text-ligth'>Avanzado</small>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <BsCheckSquareFill className='experience__details-icons'/>
                             <div>
                             <h4>CSS</h4>
-                            <small className='text-ligth'>Intermediate</small>
+                            <small className='text-ligth'>Intermedio</small>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <BsCheckSquareFill className='experience__details-icons'/>
                             <div>
                                 <h4>Javascript</h4>
-                                <small className='text-ligth'>Intermediate</small>
+                                <small className='text-ligth'>Intermedio</small>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <BsCheckSquareFill className='experience__details-icons'/>
                             <div>
                             <h4>Sass</h4>
-                            <small className='text-ligth'>Experienced</small>
+                            <small className='text-ligth'>Intermedio</small>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <BsCheckSquareFill className='experience__details-icons'/>
                             <div>
-                            <h4>Tailwind CSS</h4>
-                            <small className='text-ligth'>Experienced</small>
+                            <h4>react</h4>
+                            <small className='text-ligth'>Intermedio</small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsCheckSquareFill className='experience__details-icons'/>
+                            <div>
+                            <h4>NextJS</h4>
+                            <small className='text-ligth'>Intermedio</small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsCheckSquareFill className='experience__details-icons'/>
+                            <div>
+                            <h4>Tailwindcss</h4>
+                            <small className='text-ligth'>Principiante</small>
                             </div>
                         </article>
                     </div>
@@ -55,22 +69,22 @@ const Experience = () => {
                         <article className='experience__details'>
                             <BsCheckSquareFill className='experience__details-icons'/>
                             <h4>Node JS</h4>
-                            <small className='text-ligth'>Experienced</small>
+                            <small className='text-ligth'>Básico</small>
                         </article>
                         <article className='experience__details'>
                             <BsCheckSquareFill className='experience__details-icons'/>
                             <h4>MongoDB</h4>
-                            <small className='text-ligth'>Intermediate</small>
+                            <small className='text-ligth'>Básico</small>
                         </article>
                         <article className='experience__details'>
                             <BsCheckSquareFill className='experience__details-icons'/>
                             <h4>PHP</h4>
-                            <small className='text-ligth'>Intermediate</small>
+                            <small className='text-ligth'>Intermedio</small>
                         </article>
                         <article className='experience__details'>
                             <BsCheckSquareFill className='experience__details-icons'/>
                             <h4>MySQL</h4>
-                            <small className='text-ligth'>Experienced</small>
+                            <small className='text-ligth'>Intermedio</small>
                         </article>
                     </div>
                 

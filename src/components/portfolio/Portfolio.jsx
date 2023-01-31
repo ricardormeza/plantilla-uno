@@ -13,9 +13,9 @@ const data = [
     {
         id: 1,
         image: IMG1,
-        title: 'Cripto API Cotizador',
-        github: 'https://github.com/ricardormeza/CriptoCotizador',
-        demo: "https://iridescent-heliotrope-04356c.netlify.app/"
+        title: 'Store con Astro JS',
+        github: 'https://github.com/ricardormeza/Store-Guitarra-Astro',
+        demo: "https://lively-yeot-b510eb.netlify.app/"
     },
     {
         id: 2,
@@ -34,9 +34,9 @@ const data = [
     {
         id: 4,
         image: IMG4,
-        title: 'CRM - React Vite',
-        github: 'https://github.com/ricardormeza/CRM-CS',
-        demo: "https://splendid-druid-0ab792.netlify.app/"
+        title: 'Dashboard React',
+        github: 'https://github.com/ricardormeza/DashboardReact',
+        demo: "https://dashboard-react-inky.vercel.app/"
     },
     {
         id: 5,
@@ -48,9 +48,9 @@ const data = [
     {
         id: 6,
         image: IMG6,
-        title: 'Abogado webpage',
-        github: 'https://github.com/ricardormeza/fisioterapia-a-domicilio',
-        demo: "https://abogadochiapas.com/"
+        title: 'Buscador de bebidas',
+        github: 'https://github.com/ricardormeza/BuscadorRecetas',
+        demo: "https://buscador-recetas-bebidas.vercel.app/"
     }
 ]
 

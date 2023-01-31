@@ -4,8 +4,8 @@ import { BiCheckDouble } from 'react-icons/bi'
 const Services = () => {
     return (
         <section id='services'>
-            <h5>What I Offer</h5>
-            <h2>Services</h2>
+            <h5>Que ofrezco</h5>
+            <h2>Servicios</h2>
             <div className="container services__container">
                 <article className="service">
                     <div className="service_head">
@@ -14,27 +14,27 @@ const Services = () => {
                     <ul className='service__list'>
                         <li>
                             <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Photoshop.</p>
                         </li>
                         <li>
                             <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Illustrator</p>
                         </li>
                         <li>
                             <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Figma.</p>
                         </li>
                         <li>
                             <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Canvas.</p>
                         </li>
                         <li>
                             <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Tailwindcss</p>
                         </li>
                         <li>
                             <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>miro.com</p>
                         </li>
                     </ul>
                 </article>
@@ -46,28 +46,21 @@ const Services = () => {
                     <ul className='service__list'>
                         <li>
                             <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Alta en buscadores, SEO y SEM.</p>
                         </li>
                         <li>
                             <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Google ADS, Creación de campañas</p>
                         </li>
                         <li>
                             <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Meta ADS, Creación de campañas.</p>
                         </li>
                         <li>
                             <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>React, Nextjs, AstroJs</p>
                         </li>
-                        <li>
-                            <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                        <li>
-                            <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
+                        
                     </ul>
                 </article>
                 {/* END OF Web Development */}
@@ -78,28 +71,21 @@ const Services = () => {
                     <ul className='service__list'>
                         <li>
                             <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Creación de pauta digital, segmentación.</p>
                         </li>
                         <li>
                             <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Creación de copywriter.</p>
                         </li>
                         <li>
                             <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Creación de campaña para incremento de seguidores.</p>
                         </li>
                         <li>
                             <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Creación de campaña para clientes potenciales.</p>
                         </li>
-                        <li>
-                            <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                        <li>
-                            <BiCheckDouble className='service_list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
+                        
                     </ul>
                 </article>
                 {/* END OF Content creator */}
