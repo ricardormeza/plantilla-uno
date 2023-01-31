@@ -1,4 +1,5 @@
 import React, { Suspense } from 'react'
+import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
 import about from './about.css'
 import Me from '../../assets/rrm-me.jpg'
 import {
@@ -10,6 +11,17 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css'
 
 const About = () => {
+    const [text, count ] = useTypewriter({
+        words: [
+        `Hola, Soy Rick 🤪`,
+        "Frontend Developer 🤖", 
+        "Amante del café ☕",
+        "Master pizzamaker 🍕",
+        "<Amante del Front 😍/>"
+    ],
+    loop: true,
+    delaySpeed: 2000,
+    })
     return (
         <main id='about' className='about'>
             <h5>Algo extra.</h5>
@@ -47,8 +59,11 @@ const About = () => {
                             <small>+15 Completed</small>
                         </article>
                     </div>
-                    <h1>Ricky Ram | Web Developer </h1>
-                    <p>Soy un frontend Developer🤖, amante del café☕, Master pizzamaker 🍕, que día a día trato de mejorar como profesional y<strong> cómo ser humano</strong>.</p>
+                    <h1>
+                        <span>{text}</span>
+                        <Cursor cursorColor='#0a45f7' />
+                    </h1>
+                    <p>Soy un frontend Developer que día a día trato de mejorar como profesional y<strong> cómo ser humano</strong>.</p>
                     <p>La reinvención hace avanzar al mundo. Y ese mismo dinamismo la enfoco en mi vida cotidiana y así a reinventarme.</p>
                     <p>Mi meta es convertirme en un fullstack developer</p>
                     <a href="#contact" area-aria-label='Click to contact section' className='btn btn-primary'>Hablémos</a>
