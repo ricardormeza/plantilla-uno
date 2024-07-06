@@ -49,9 +49,9 @@ const Contact = () => {
                         <BsWhatsapp className='contact__option-icon'/>
                         <h4>Whatsapp</h4>
                         <h5>ricardo.rmeza@live.com</h5>
-                        <a href="https:wa.me/529611741737"
+                        <a href="https:wa.me/526631016627"
                         aria-label='send message to ricardo at whatsapp'
-                        target="_blank">Send a wts</a>
+                        target="_blank">Mandame un whatsapp</a>
                     </article>
                 </div>
                 {/* END CONTACT__OPTIONS */}

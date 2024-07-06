@@ -4,7 +4,7 @@ import { BiCheckDouble } from 'react-icons/bi'
 const Services = () => {
     return (
         <section id='services'>
-            <h5>Que ofrezco</h5>
+            <h5>Lo que ofrezco</h5>
             <h2>Servicios</h2>
             <div className="container services__container">
                 <article className="service">
@@ -54,13 +54,20 @@ const Services = () => {
                         </li>
                         <li>
                             <BiCheckDouble className='service_list-icon' />
+                            <p>Google LockerStudio, Creación de reportes</p>
+                        </li>
+                        <li>
+                            <BiCheckDouble className='service_list-icon' />
                             <p>Meta ADS, Creación de campañas.</p>
                         </li>
                         <li>
                             <BiCheckDouble className='service_list-icon' />
                             <p>React, Nextjs, AstroJs</p>
                         </li>
-                        
+                        <li>
+                            <BiCheckDouble className='service_list-icon' />
+                            <p>PHP, Wordpress, Shopify</p>
+                        </li>
                     </ul>
                 </article>
                 {/* END OF Web Development */}

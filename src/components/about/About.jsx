@@ -14,7 +14,7 @@ const About = () => {
     const [text, count ] = useTypewriter({
         words: [
         `Hola, Soy Rick 🤪`,
-        "Frontend Developer 🤖", 
+        "Full Stack Developer 🤖", 
         "Amante del café ☕",
         "Master pizzamaker 🍕",
         "<Amante del Front 😍/>"
@@ -46,26 +46,26 @@ const About = () => {
                         <article className='about_card'>
                             <AiOutlineCluster className='about__icon' />
                             <h5>Experiencia</h5>
-                            <small>+1 Years Working</small>
+                            <small>+4 años creando diversos proyectos</small>
                         </article>
                         <article className='about_card'>
                             <AiOutlineUser className='about__icon' />
                             <h5>Clientes</h5>
-                            <small>5+</small>
+                            <small>10+</small>
                         </article>
                         <article className='about_card'>
                             <AiOutlineFolderOpen className='about__icon' />
                             <h5>Proyectos</h5>
-                            <small>+15 Completed</small>
+                            <small>+45 Completados</small>
                         </article>
                     </div>
                     <h1>
                         <span>{text}</span>
                         <Cursor cursorColor='#0a45f7' />
                     </h1>
-                    <p>Soy un frontend Developer que día a día trato de mejorar como profesional y<strong> cómo ser humano</strong>.</p>
-                    <p>La reinvención hace avanzar al mundo. Y ese mismo dinamismo la enfoco en mi vida cotidiana y así a reinventarme.</p>
-                    <p>Mi meta es convertirme en un fullstack developer</p>
+                    <p>Soy un profesional versátil que saca lo mejor del desarrollo web, combinando de manera impecable su experiencia full stack con avanzadas estrategias de SEO-SEM para garantizar que tu presencia digital brille.</p>
+                    <p>La reinvención impulsa el avance del mundo. Ese mismo dinamismo lo aplico a mi vida diaria, permitiéndome reinventarme constantemente..</p>
+                    <p>Mi meta es viajar al rededor del mundo</p>
                     <a href="#contact" area-aria-label='Click to contact section' className='btn btn-primary'>Hablémos</a>
                 </div>
 

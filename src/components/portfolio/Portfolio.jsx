@@ -20,9 +20,9 @@ const data = [
     {
         id: 2,
         image: IMG2,
-        title: 'Fisioterapia webpage',
-        github: 'https://github.com/ricardormeza/fisioterapia-a-domicilio',
-        demo: "https://clinicadefisioterapiacdmx.com/fisioterapia-a-domicilio/"
+        title: 'Sitio de Psicóloga',
+        github: '#',
+        demo: "https://bienestar-unete.com/"
     },
     {
         id: 3,
@@ -42,7 +42,7 @@ const data = [
         id: 5,
         image: IMG5,
         title: 'Abogado webpage',
-        github: 'https://github.com/ricardormeza/fisioterapia-a-domicilio',
+        github: '#',
         demo: "https://abogadochiapas.com/"
     },
     {
